@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">YatraBot</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+    <string name="title_activity_maps">Map</string>
+    <string name="permission_refused">Permission was not granted</string>
+    <string name="permission_request_title">Special Permission Request</string>
+    <string name="app_permission_notice">This permission request is very important to your app functionality. If it is not granted your app might not work the way it is intended</string>
+    <string name="failed_draw">Empty line path return</string>
+    <string name="server_error">Server error. Something when wrong with the server</string>
+
+
+</resources>
