@@ -10,8 +10,11 @@
 * Give permissions like GPS,internet & storage.
 * Feel free to use YatraBot
 ## Screenshot
+
+![alt text](https://github.com/bhonesh1998/YatraBot/blob/master/Screenshot_20180321_203340.jpg)
 ![alt text](https://github.com/bhonesh1998/YatraBot/blob/master/Screenshot_2018-03-21-05-34-29-914_com.example.bhonesh.bot.png)
-![alt text](https://github.com/bhonesh1998/YatraBot/blob/master/Screenshot_2018-03-21-05-35-18-216_com.example.bhonesh.bot.png)
+![alt text](https://github.com/bhonesh1998/YatraBot/blob/master/Screenshot_2018-03-21-05-35-09-912_com.example.bhonesh.bot.png)
+
 ## Motivation
 * Our app include multiple features in a single bot. 
 * User can search any hotel,restaurant,historical places,routes between places.
