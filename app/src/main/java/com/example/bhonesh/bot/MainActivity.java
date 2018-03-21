@@ -179,11 +179,19 @@ public class MainActivity extends AppCompatActivity {
                 }else if(tof.equals("open")){
                     if(toser.equals("map")){
                         Intent intent=new Intent(MainActivity.this,Display.class);
-                        intent.putExtra("type",toser);
-
+                        intent.putExtra("query","2");
+                        intent.putExtra("text","abc");
+                        Toast.makeText(MainActivity.this,"map ",Toast.LENGTH_LONG).show();
                         startActivity(intent);
                     }
                     else if(toser.equals("rail help")){
+                        Log.e("call","yes");
+                        Intent intent=new Intent(MainActivity.this,RailDisplay.class);
+                        // intent.putExtra("type",toser);
+
+                        startActivity(intent);
+                    }
+                    else if(toser.contains("rail")){
                         Log.e("call","yes");
                         Intent intent=new Intent(MainActivity.this,RailDisplay.class);
                         // intent.putExtra("type",toser);
