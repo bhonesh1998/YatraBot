@@ -1,0 +1,155 @@
+<category>
+<pattern> I WANT TO GO * </pattern>
+<template>
+for how many days you want to go  <star index=”1”/>?
+</template>
+</category>
+
+<category>
+<pattern>GETTING BORED</pattern>
+<template>
+what about a change lets go for a journey</template>
+</category>
+
+<category>
+<pattern>FEELING FOODY</pattern>
+<template>
+ <srai> CURRENT LOCATION <star/> </srai>
+</template>
+</category>
+
+<category>
+<pattern>CURRENT LOCATION</pattern>
+<template>let me show you nearby fun places,put your GPS ON</templete>
+</category>
+
+
+
+
+<category>
+<pattern> _ LOCATION </pattern>
+<template>
+<srai> CURRENT LOCATION </srai>
+</template>
+</category>
+
+<category>
+<pattern> LOCATION * </pattern>
+<template>
+<srai> CURRENT LOCATION </srai>
+</template>
+</category>
+
+<category>
+<pattern> _ LOCATION * </pattern>
+<template>
+<srai> CURRENT LOCATION </srai>
+</template>
+</category>
+
+The <random> tag is used to respond to a user input in different ways. Each possible response
+must be delimited by <li> tag. In this way, the chatterbot responses are handled as a list, and
+the answers are randomly selected by the AIML interpreter. 
+
+<category>
+<pattern> ENTERTAIN ME </pattern>
+<template>
+<random>
+<li> what about a ride </li>
+<li> lets go for food? </li>
+<li> want to vist nearby disco! </li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern> I BELONG TO * </pattern>
+<template>
+oh thats your birth place <set name="usersbelonging"> <star/> </set>
+</template>
+</category>
+
+<category>
+<pattern>WANT A CHANGE</pattern>
+<template>lets go to
+<get name = “variableName”/>
+</template></category> 
+
+The symbolic reduction technique is used for pattern simplification. Thus, a complex grammar
+pattern is mapped into a set of simpler patterns. For instance, the question “WHO IS X”, where
+X represents any entity, could be written in several ways, such as: “DO YOU KNOW WHO X
+IS” and “TALK MORE ABOUT X”. The <srai> tag is used to map among these standards.
+Table 3 presents the AIML code with an example of the usage of the symbolic reduction
+technique. 
+
+
+
+<category>
+2 <pattern> WHO IS ALAN TURING? </pattern>
+3 <template>
+4
+ Alan Turing was a British mathematician, cryptographer,
+ and computer scientist often credited as
+ the founder of modern Computer Science.
+5 </template>
+6 </category>
+7
+8 <category>
+9 <pattern> WHO IS ALBERT SABIN? </pattern>
+10 <template>
+11 Albert Sabin was the researcher who developed
+ the vaccine that is the main defense against polio.
+12 </template>
+13 </category>
+14
+15 <category>
+16 <pattern> DO YOU KNOW WHO * IS? </pattern>
+17 <template>
+18 <srai> WHO IS <star/> </srai>
+19 </template>
+ </category>
+
+
+
+The <that> tag tells the system to analyze the last sentence presented by the chatterbot. It is
+noteworthy that to analyze the latest sequence of chatterbot is important when the bot has held a
+question, and the user's response needs to be contextualized in relation to this question. This tag
+must be within the <category> scope.
+
+
+<category>
+<pattern> PLAN A JOURNEY </pattern>
+<template>
+where you wanna go ? punjab?
+</template>
+</category>
+
+<category>
+<pattern> YES </pattern>
+<that> where you wanna go ? punjab? </that>
+<template>
+Nice, place too.
+</template>
+</category>
+
+<category>
+<pattern> NO </pattern>
+<that> where do you wanna go?punjab?</that>
+<template>
+let me plan a trip for you
+</template>
+</category>
+
+<category>
+<pattern>PLAN A TRIP</pattern>
+<template>
+ok by which medium you want to go</template>
+</category>
+
+
+The content of <think> tag is processed by the chatterbot, but not displayed to user. This tag is
+used for data processing, conditional statements and tests that should not be visible to user. In
+Table 12, an AIML code example of this tag is displayed. In Line 4 the chatterbot stores the
+user name in nameUser variable, without the user having knowledge of this assignment, once
+the <set> command is in the <think> tag scope.
