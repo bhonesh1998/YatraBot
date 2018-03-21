@@ -2,8 +2,13 @@
 > YatraBot is an android app which will solve the queries asked by users.It is a simple but very efficient bot which include various features in 
 > same app.
 > User can ask for a train between the two station name.Bot will search the seats available in the trains running between provided stations.
-> And the Bot will ask in which available train ticket is to be booked.And then it will book the ticket according to provided information.
->If you ask for any Place,the bot will show the exact place using google map api.U can also get a greeting welcome from the chat bot.
+>If you ask for any Place,the bot will show the exact place using google map api.you can also get a greeting welcome from the chat bot.
+>You can search any place,restaurant,historical places,show route between two places,your own location.
+>you can search for pnr status,ticket availability between two stations.
+## Instructions to run
+* Install .apk file from repository.
+* Give permissions like GPS,internet & storage.
+* Feel free to use YatraBot
 ## Screenshot
 ![alt text](https://github.com/bhonesh1998/YatraBot/blob/master/Screenshot_2018-03-21-05-34-29-914_com.example.bhonesh.bot.png)
 ![alt text](https://github.com/bhonesh1998/YatraBot/blob/master/Screenshot_2018-03-21-05-35-18-216_com.example.bhonesh.bot.png)
