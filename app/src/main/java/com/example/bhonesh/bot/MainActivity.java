@@ -118,8 +118,6 @@ public class MainActivity extends AppCompatActivity {
 
      /*   if(result.contains("map"))
         {
-
-
             startActivity(new Intent(MainActivity.this,MapsActivity.class));
         }*/
 
