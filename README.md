@@ -1,19 +1,22 @@
 # YatraBot
-> YatraBot is an android app which will solve the queries asked by users.It is a simple but very efficient bot which include various features in 
-> same app.
+> YatraBot is an initaiative which will solve the queries asked by users related to travel and tourism .It is a simple but very efficient bot which include various features in 
+> same app a part from a travel bot it also perform all the function as performed by a noraml bot.
 > User can ask for a train between the two station name.Bot will search the seats available in the trains running between provided stations.
->If you ask for any Place,the bot will show the exact place using google map api.you can also get a greeting welcome from the chat bot.
->You can search any place,restaurant,historical places,show route between two places,your own location.
+>If you ask for any Place,the bot will show the exact place using google map and place api.you can also get a greeting welcome from the chat bot and .
+>You can search any place, nearby restaurant,historical places,show route between two places,your own location.
 >you can search for pnr status,ticket availability between two stations.
+>the Technology used  for bot is AIML(Artificail Inteligance MARKUPLANGUAGE).
 ## Instructions to run
 * Install .apk file from repository.
-* Give permissions like GPS,internet & storage.
-* Feel free to use YatraBot
+* Give permissions like GPS,internet & storage.(For Api >23)
+* Feel free to use YatraBot 
 ## Screenshot
 
 ![alt text](https://github.com/bhonesh1998/YatraBot/blob/master/Screenshot_20180321_203340.jpg)
 ![alt text](https://github.com/bhonesh1998/YatraBot/blob/master/Screenshot_2018-03-21-05-34-29-914_com.example.bhonesh.bot.png)
 ![alt text](https://github.com/bhonesh1998/YatraBot/blob/master/Screenshot_2018-03-21-05-35-09-912_com.example.bhonesh.bot.png)
+
+
 
 ## Motivation
 * Our app include multiple features in a single bot. 
@@ -34,7 +37,7 @@
 ## Deployment
 
 Actually we have to make activities in android application using java and xml files.we can deploy that in android app directly.
-We have to give permissions like gps,internet and storage also.
+We have to give permissions like gps,internet and storage also(Api>23).
 
 ## Authors
 * **Umesh Kumar kumawat** - *Android developer* - [Umeshkumar9414](https://github.com/Umeshkumar9414)
