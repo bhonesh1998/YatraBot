@@ -4,16 +4,14 @@
 > User can ask for a train between the two station name.Bot will search the seats available in the trains running between provided stations.
 > And the Bot will ask in which available train ticket is to be booked.And then it will book the ticket according to provided information.
 >If you ask for any Place,the bot will show the exact place using google map api.U can also get a greeting welcome from the chat bot.
-
-
+## Screenshot
+![alt text](https://github.com/bhonesh1998/YatraBot/blob/master/Screenshot_2018-03-21-05-34-29-914_com.example.bhonesh.bot.png)
+![alt text](https://github.com/bhonesh1998/YatraBot/blob/master/Screenshot_2018-03-21-05-35-18-216_com.example.bhonesh.bot.png)
 ## Motivation
-* There are lot of apps available but very complex one.
 * Our app include multiple features in a single bot. 
 * User can search any hotel,restaurant,historical places,routes between places.
 * User can search trains between stations ,ticket availability and pnr status. 
 * Advertising yourself and/or your ideas.
-## Screenshots
-
 
 ## Languages Used
 * [Java](https://www.java.com/)
