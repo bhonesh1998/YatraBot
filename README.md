@@ -9,6 +9,10 @@
 ## Instructions to run
 * Install .apk file from repository.
 * Give permissions like GPS,internet & storage.(For Api >23)
+* You can start conversation with bot (like hi, hello, where, where are you from).
+* you can also tell him name (like my mothers name is -) and ask him back.
+* For opening map you can tell him to show any place like show hotels etc.
+* For opening rail help you can type "open rail help" or "open railway help" or similer to that.
 * Feel free to use YatraBot 
 ## Screenshot
 
