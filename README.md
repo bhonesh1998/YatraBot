@@ -44,7 +44,7 @@ Actually we have to make activities in android application using java and xml fi
 We have to give permissions like gps,internet and storage also(Api>23).
 
 ## Authors
-* **Umesh Kumar kumawat** - *Android developer* - [Umeshkumar9414](https://github.com/Umeshkumar9414)
+* **Umesh Kumar kumawat** - *Android developer and AIML scriptor* - [Umeshkumar9414](https://github.com/Umeshkumar9414)
 * **Upesh Sahu** - *Android developer* - [Upesh Sahu](https://github.com/upeshsahu)
 * **Bhonesh Chawla** - *Android developer* - [bhonesh1998](https://github.com/bhonesh1998)
 * **Piyush Trigun** - *GUI designer and aiml scriptor* - [piyush-trigun](https://github.com/piyush-trigun)
