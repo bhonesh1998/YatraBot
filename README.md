@@ -15,7 +15,7 @@
 * For opening rail help you can type "open rail help" or "open railway help" or similer to that.
 * Feel free to use YatraBot 
 ## Screenshot
-
+![alt_tetxt](https://github.com/bhonesh1998/YatraBot/blob/master/splash.png)
 ![alt text](https://github.com/bhonesh1998/YatraBot/blob/master/Screenshot_20180321_203340.jpg)
 ![alt text](https://github.com/bhonesh1998/YatraBot/blob/master/Screenshot_2018-03-21-05-34-29-914_com.example.bhonesh.bot.png)
 ![alt text](https://github.com/bhonesh1998/YatraBot/blob/master/Screenshot_2018-03-21-05-35-09-912_com.example.bhonesh.bot.png)
